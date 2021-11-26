@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es2015",
+
+    // Strictness settings
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "exactOptionalPropertyTypes": false, // {x?: T} !== {x: T | undefined}
+    "importsNotUsedAsValues": "error",
+    "noImplicitOverride": true,
+    "noImplicitReturns": false,   // Not great when using early return pattern,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedParameters": true,
+    "useUnknownInCatchVariables": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

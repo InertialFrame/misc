@@ -1,0 +1,1 @@
+export type Defined<T> = Required<NonNullable<T>>
